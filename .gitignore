@@ -1,0 +1,8 @@
+# ignoore any dir starting with .terraform
+.terraform/
+
+#ignoring tf state files and tf lock files
+# terraform.tfstate
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
