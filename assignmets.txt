@@ -1,0 +1,18 @@
+Ass1:
+
+- Create EC2 with SG (ingress 22). Custom VPC (/16). 2 Subnet
+
+- Create IAM with S3ReadOnly policy
+
+- Assign created role to EC2
+
+Ass2:
+
+- Create EC2 with 2 EBS
+- Custom SG (allow 22, 80)
+- Update size of one EBS
+
+
+Ass3:
+
+- 2 EC2 with 2 EBS vols each
