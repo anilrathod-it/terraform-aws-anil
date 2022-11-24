@@ -1,0 +1,16 @@
+name: "Terraform Deployment"
+on:
+  push:
+    paths:
+      - '*/**'
+defaults:
+  run:
+    shell: bash
+jobs:
+  terraform:
+    name:   tf-script-exec-job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: TestStep01
+        run: echo "Hello World"
