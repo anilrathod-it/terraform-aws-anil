@@ -1,8 +1,8 @@
 name: "Terraform Deployment"
 on:
   push:
-    paths:
-      - '*/**'
+    branches:
+      - main
 defaults:
   run:
     shell: bash
